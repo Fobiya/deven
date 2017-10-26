@@ -872,6 +872,27 @@ header {
                     }
                 }
             }
+            .duct-tape {
+                top: 166px;
+                float: right;
+                z-index: 4;
+                position: absolute;
+                display: block;
+                right: -505px;
+                transition: all 2.3s step-end !important;
+                animation-iteration-count: 1;
+                animation-name: ducttape;
+                animation-duration: 2.1s;
+                opacity: 1;
+                /*   @keyframes ducttape {
+                    0% {
+                        opacity: 0;
+                    }
+                    100% {
+                        opacity: 1;
+                    }
+                } */
+            }
         }
         .lin_o:before {
             width: 1px;
@@ -1282,6 +1303,15 @@ header {
             z-index: 5;
             opacity: 0;
             margin-left: 167px;
+        }
+        .duct-tape {
+            top: 166px;
+            float: right;
+            z-index: 4;
+            position: absolute;
+            display: block;
+            right: -505px;
+            opacity: 0;
         }
     }
 }

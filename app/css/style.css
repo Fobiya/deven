@@ -912,6 +912,31 @@ header #navigation .logo img {
   100% {
     opacity: 1; } }
 
+.start div div div .box__ .duct-tape {
+  top: 166px;
+  float: right;
+  z-index: 4;
+  position: absolute;
+  display: block;
+  right: -505px;
+  -webkit-transition: all 2.3s step-end !important;
+  transition: all 2.3s step-end !important;
+  -webkit-animation-iteration-count: 1;
+  animation-iteration-count: 1;
+  -webkit-animation-name: ducttape;
+  animation-name: ducttape;
+  -webkit-animation-duration: 2.1s;
+  animation-duration: 2.1s;
+  opacity: 1;
+  /*   @keyframes ducttape {
+                    0% {
+                        opacity: 0;
+                    }
+                    100% {
+                        opacity: 1;
+                    }
+                } */ }
+
 .start div div div .lin_o:before {
   width: 1px;
   background: #d4d4d4;
@@ -1311,6 +1336,14 @@ header #navigation .logo img {
       z-index: 5;
       opacity: 0;
       margin-left: 167px; }
+    .blok__01 .box__ .duct-tape {
+      top: 166px;
+      float: right;
+      z-index: 4;
+      position: absolute;
+      display: block;
+      right: -505px;
+      opacity: 0; }
 
 /*CSS STYLE END Web~Fobiya*/
 footer {
