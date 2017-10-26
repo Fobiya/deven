@@ -900,17 +900,27 @@ header #navigation .logo img {
   margin-left: 167px;
   -webkit-animation-iteration-count: 1;
   animation-iteration-count: 1;
-  -webkit-animation-name: grin;
-  animation-name: grin;
-  -webkit-animation-duration: 5.3s;
-  animation-duration: 5.3s;
-  opacity: 1; }
+  -webkit-animation-name: djdj;
+  animation-name: djdj;
+  -webkit-animation-duration: 1.3s;
+  animation-duration: 1.3s;
+  opacity: 1;
+  width: 750px;
+  height: auto; }
 
-@keyframes grin {
+@-webkit-keyframes djdj {
   0% {
-    opacity: 0; }
+    width: 30%; }
   100% {
-    opacity: 1; } }
+    width: 750px;
+    height: auto; } }
+
+@keyframes djdj {
+  0% {
+    width: 30%; }
+  100% {
+    width: 750px;
+    height: auto; } }
 
 .start div div div .box__ .duct-tape {
   top: 166px;
@@ -1335,7 +1345,8 @@ header #navigation .logo img {
       bottom: 0px;
       z-index: 5;
       opacity: 0;
-      margin-left: 167px; }
+      margin-left: 167px;
+      width: 30%; }
     .blok__01 .box__ .duct-tape {
       top: 166px;
       float: right;

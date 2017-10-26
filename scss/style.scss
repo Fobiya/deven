@@ -860,15 +860,18 @@ header {
                 opacity: 0;
                 margin-left: 167px;
                 animation-iteration-count: 1;
-                animation-name: grin;
-                animation-duration: 5.3s;
+                animation-name: djdj;
+                animation-duration: 1.3s;
                 opacity: 1;
-                @keyframes grin {
+                width: 750px;
+                height: auto;
+                @keyframes djdj {
                     0% {
-                        opacity: 0;
+                        width: 30%;
                     }
                     100% {
-                        opacity: 1;
+                        width: 750px;
+                        height: auto;
                     }
                 }
             }
@@ -1303,6 +1306,7 @@ header {
             z-index: 5;
             opacity: 0;
             margin-left: 167px;
+            width: 30%;
         }
         .duct-tape {
             top: 166px;
