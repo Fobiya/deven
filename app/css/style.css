@@ -720,7 +720,6 @@ header #navigation .logo img {
     margin-left: 0px; } }
 
 .start div div div .box__ .inform h1 {
-  font: 100px "Knockout-HTF68-FullFeatherwt";
   color: #000;
   text-transform: uppercase;
   line-height: .9em;
@@ -729,6 +728,18 @@ header #navigation .logo img {
   margin-left: 0px;
   opacity: 1;
   height: 180px; }
+  @media only screen and (max-width: 1199px) and (min-width: 993px) {
+    .start div div div .box__ .inform h1 {
+      font-family: 70px !important; } }
+  @media only screen and (max-width: 992px) and (min-width: 769px) {
+    .start div div div .box__ .inform h1 {
+      font-family: 60px !important; } }
+  @media only screen and (max-width: 768px) and (min-width: 541px) {
+    .start div div div .box__ .inform h1 {
+      font-family: 55px !important; } }
+  @media only screen and (max-width: 540px) and (min-width: 200px) {
+    .start div div div .box__ .inform h1 {
+      font-family: 55px !important; } }
   .start div div div .box__ .inform h1 span {
     overflow: hidden; }
   .start div div div .box__ .inform h1 ._1 {
@@ -1366,6 +1377,19 @@ header #navigation .logo img {
           position: relative; }
       .blok__01 .box__ .inform .bottom__black {
         margin-left: 125px; }
+        @media only screen and (max-width: 1199px) and (min-width: 993px) {
+          .blok__01 .box__ .inform .bottom__black {
+            margin-left: 125px; } }
+        @media only screen and (max-width: 992px) and (min-width: 769px) {
+          .blok__01 .box__ .inform .bottom__black {
+            margin-left: 100px; } }
+        @media only screen and (max-width: 768px) and (min-width: 541px) {
+          .blok__01 .box__ .inform .bottom__black {
+            margin-left: 80px; } }
+        @media only screen and (max-width: 540px) and (min-width: 200px) {
+          .blok__01 .box__ .inform .bottom__black {
+            margin-left: auto;
+            margin-left: auto; } }
     .blok__01 .box__ .eleps {
       margin-top: 56px;
       margin-left: 185px;
@@ -1386,6 +1410,15 @@ header #navigation .logo img {
           width: 120%;
           -webkit-transition: all 1.5s ease !important;
           transition: all 1.5s ease !important; } }
+      @media only screen and (max-width: 992px) and (min-width: 769px) {
+        .blok__01 .box__ .eleps {
+          display: none !important; } }
+      @media only screen and (max-width: 768px) and (min-width: 541px) {
+        .blok__01 .box__ .eleps {
+          display: none !important; } }
+      @media only screen and (max-width: 540px) and (min-width: 200px) {
+        .blok__01 .box__ .eleps {
+          display: none !important; } }
     .blok__01 .box__ .liniar {
       width: 0px;
       height: 370px;
@@ -1477,10 +1510,10 @@ header #navigation .logo img {
       width: 30%; }
       @media only screen and (max-width: 1599px) and (min-width: 1200px) {
         .blok__01 .box__ .dj {
-          width: 600px !important; } }
+          width: 470px !important; } }
       @media only screen and (max-width: 1199px) and (min-width: 993px) {
         .blok__01 .box__ .dj {
-          display: none !important; } }
+          width: 430px !important; } }
       @media only screen and (max-width: 992px) and (min-width: 769px) {
         .blok__01 .box__ .dj {
           display: none !important; } }
