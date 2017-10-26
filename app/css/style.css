@@ -399,8 +399,30 @@ header #navigation .logo img {
 
 .start div div div div div .wid {
   height: 100vh; }
+  @media only screen and (max-width: 992px) and (min-width: 769px) {
+    .start div div div div div .wid {
+      height: auto !important;
+      text-align: center; } }
+  @media only screen and (max-width: 768px) and (min-width: 541px) {
+    .start div div div div div .wid {
+      height: auto !important;
+      text-align: center; } }
+  @media only screen and (max-width: 540px) and (min-width: 200px) {
+    .start div div div div div .wid {
+      height: auto !important;
+      text-align: center !important; } }
   .start div div div div div .wid .af {
     height: 100vh; }
+    @media only screen and (max-width: 992px) and (min-width: 769px) {
+      .start div div div div div .wid .af {
+        height: auto !important;
+        text-align: center; } }
+    @media only screen and (max-width: 768px) and (min-width: 541px) {
+      .start div div div div div .wid .af {
+        display: none !important; } }
+    @media only screen and (max-width: 540px) and (min-width: 200px) {
+      .start div div div div div .wid .af {
+        display: none !important; } }
   .start div div div div div .wid .af:before {
     content: "";
     width: 3px;
@@ -414,6 +436,16 @@ header #navigation .logo img {
     bottom: 40px;
     top: 43px;
     left: 119px; }
+    @media only screen and (max-width: 992px) and (min-width: 769px) {
+      .start div div div div div .wid .af:before {
+        height: auto !important;
+        text-align: center; } }
+    @media only screen and (max-width: 768px) and (min-width: 541px) {
+      .start div div div div div .wid .af:before {
+        display: none !important; } }
+    @media only screen and (max-width: 540px) and (min-width: 200px) {
+      .start div div div div div .wid .af:before {
+        display: none !important; } }
   .start div div div div div .wid .af:after {
     content: "";
     width: 3px;
@@ -426,10 +458,32 @@ header #navigation .logo img {
     position: absolute;
     bottom: 40px;
     left: 119px; }
+    @media only screen and (max-width: 992px) and (min-width: 769px) {
+      .start div div div div div .wid .af:after {
+        height: auto !important;
+        text-align: center !important; } }
+    @media only screen and (max-width: 768px) and (min-width: 541px) {
+      .start div div div div div .wid .af:after {
+        display: none !important; } }
+    @media only screen and (max-width: 540px) and (min-width: 200px) {
+      .start div div div div div .wid .af:after {
+        display: none !important; } }
 
 .start div div div div div [class*="p_box_"] {
   height: 100vh;
   text-align: left; }
+  @media only screen and (max-width: 992px) and (min-width: 769px) {
+    .start div div div div div [class*="p_box_"] {
+      height: auto !important;
+      text-align: center; } }
+  @media only screen and (max-width: 768px) and (min-width: 541px) {
+    .start div div div div div [class*="p_box_"] {
+      height: auto !important;
+      text-align: center; } }
+  @media only screen and (max-width: 540px) and (min-width: 200px) {
+    .start div div div div div [class*="p_box_"] {
+      height: auto !important;
+      text-align: center; } }
 
 .start div div div div div .box__:before {
   content: "";
@@ -443,6 +497,12 @@ header #navigation .logo img {
   position: absolute;
   top: 43px;
   left: 119px; }
+  @media only screen and (max-width: 768px) and (min-width: 541px) {
+    .start div div div div div .box__:before {
+      display: none !important; } }
+  @media only screen and (max-width: 540px) and (min-width: 200px) {
+    .start div div div div div .box__:before {
+      display: none !important; } }
 
 .start div div div div div .box__:after {
   content: "";
@@ -456,6 +516,12 @@ header #navigation .logo img {
   position: absolute;
   bottom: 40px;
   left: 119px; }
+  @media only screen and (max-width: 768px) and (min-width: 541px) {
+    .start div div div div div .box__:after {
+      display: none !important; } }
+  @media only screen and (max-width: 540px) and (min-width: 200px) {
+    .start div div div div div .box__:after {
+      display: none !important; } }
 
 .start div div div div div .lin_o:before {
   width: 1px;
@@ -473,6 +539,15 @@ header #navigation .logo img {
   animation-name: linbefore;
   -webkit-animation-duration: 3.7s;
   animation-duration: 3.7s; }
+  @media only screen and (max-width: 992px) and (min-width: 769px) {
+    .start div div div div div .lin_o:before {
+      height: auto !important; } }
+  @media only screen and (max-width: 768px) and (min-width: 541px) {
+    .start div div div div div .lin_o:before {
+      display: none !important; } }
+  @media only screen and (max-width: 540px) and (min-width: 200px) {
+    .start div div div div div .lin_o:before {
+      display: none !important; } }
 
 @-webkit-keyframes linbefore {
   0% {
@@ -503,6 +578,15 @@ header #navigation .logo img {
   animation-name: rlinafter;
   -webkit-animation-duration: 3.7s;
   animation-duration: 3.7s; }
+  @media only screen and (max-width: 992px) and (min-width: 769px) {
+    .start div div div div div .rlin:after {
+      height: auto !important; } }
+  @media only screen and (max-width: 768px) and (min-width: 541px) {
+    .start div div div div div .rlin:after {
+      display: none !important; } }
+  @media only screen and (max-width: 540px) and (min-width: 200px) {
+    .start div div div div div .rlin:after {
+      display: none !important; } }
 
 @-webkit-keyframes rlinafter {
   0% {
@@ -532,6 +616,15 @@ header #navigation .logo img {
   animation-name: lin_wbefore;
   -webkit-animation-duration: 3.7s;
   animation-duration: 3.7s; }
+  @media only screen and (max-width: 992px) and (min-width: 769px) {
+    .start div div div div div .lin_w:before {
+      height: auto !important; } }
+  @media only screen and (max-width: 768px) and (min-width: 541px) {
+    .start div div div div div .lin_w:before {
+      display: none !important; } }
+  @media only screen and (max-width: 540px) and (min-width: 200px) {
+    .start div div div div div .lin_w:before {
+      display: none !important; } }
 
 @-webkit-keyframes lin_wbefore {
   0% {
@@ -559,6 +652,15 @@ header #navigation .logo img {
   animation-name: lin_tbefore;
   -webkit-animation-duration: 3.7s;
   animation-duration: 3.7s; }
+  @media only screen and (max-width: 992px) and (min-width: 769px) {
+    .start div div div div div .lin_t:before {
+      height: auto !important; } }
+  @media only screen and (max-width: 768px) and (min-width: 541px) {
+    .start div div div div div .lin_t:before {
+      display: none !important; } }
+  @media only screen and (max-width: 540px) and (min-width: 200px) {
+    .start div div div div div .lin_t:before {
+      display: none !important; } }
 
 @-webkit-keyframes lin_tbefore {
   0% {
@@ -574,11 +676,30 @@ header #navigation .logo img {
 
 .start div div div .wid {
   height: 100vh; }
+  @media only screen and (max-width: 992px) and (min-width: 769px) {
+    .start div div div .wid {
+      height: auto !important;
+      text-align: center !important; } }
+  @media only screen and (max-width: 768px) and (min-width: 541px) {
+    .start div div div .wid {
+      display: none; } }
+  @media only screen and (max-width: 540px) and (min-width: 200px) {
+    .start div div div .wid {
+      display: none; } }
   .start div div div .wid .af {
     -webkit-transition: all 1.3s ease !important;
     transition: all 1.3s ease !important;
     background: #fff;
     height: 100vh; }
+    @media only screen and (max-width: 992px) and (min-width: 769px) {
+      .start div div div .wid .af {
+        height: auto !important; } }
+    @media only screen and (max-width: 768px) and (min-width: 541px) {
+      .start div div div .wid .af {
+        display: none; } }
+    @media only screen and (max-width: 540px) and (min-width: 200px) {
+      .start div div div .wid .af {
+        display: none; } }
   .start div div div .wid .af:before {
     content: "";
     width: 3px;
@@ -621,6 +742,15 @@ header #navigation .logo img {
     @media only screen and (max-height: 750px) and (min-height: 700px) {
       .start div div div .wid .af:before {
         top: 25px; } }
+    @media only screen and (max-width: 992px) and (min-width: 769px) {
+      .start div div div .wid .af:before {
+        height: auto !important; } }
+    @media only screen and (max-width: 768px) and (min-width: 541px) {
+      .start div div div .wid .af:before {
+        display: none; } }
+    @media only screen and (max-width: 540px) and (min-width: 200px) {
+      .start div div div .wid .af:before {
+        display: none; } }
   .start div div div .wid .af:after {
     content: "";
     width: 3px;
@@ -633,6 +763,15 @@ header #navigation .logo img {
     position: absolute;
     bottom: 40px;
     right: -1px; }
+    @media only screen and (max-width: 992px) and (min-width: 769px) {
+      .start div div div .wid .af:after {
+        height: auto !important; } }
+    @media only screen and (max-width: 768px) and (min-width: 541px) {
+      .start div div div .wid .af:after {
+        display: none; } }
+    @media only screen and (max-width: 540px) and (min-width: 200px) {
+      .start div div div .wid .af:after {
+        display: none; } }
 
 .start div div div .box__:before {
   content: "";
@@ -675,6 +814,15 @@ header #navigation .logo img {
   @media only screen and (max-height: 750px) and (min-height: 700px) {
     .start div div div .box__:before {
       top: 25px; } }
+  @media only screen and (max-width: 992px) and (min-width: 769px) {
+    .start div div div .box__:before {
+      height: auto !important; } }
+  @media only screen and (max-width: 768px) and (min-width: 541px) {
+    .start div div div .box__:before {
+      display: none; } }
+  @media only screen and (max-width: 540px) and (min-width: 200px) {
+    .start div div div .box__:before {
+      display: none; } }
 
 .start div div div .box__:after {
   content: "";
@@ -688,6 +836,15 @@ header #navigation .logo img {
   position: absolute;
   bottom: 40px;
   left: -1px; }
+  @media only screen and (max-width: 992px) and (min-width: 769px) {
+    .start div div div .box__:after {
+      height: auto !important; } }
+  @media only screen and (max-width: 768px) and (min-width: 541px) {
+    .start div div div .box__:after {
+      display: none !important; } }
+  @media only screen and (max-width: 540px) and (min-width: 200px) {
+    .start div div div .box__:after {
+      display: none !important; } }
 
 .start div div div .box__ .inform p {
   font: 18px "Knockout-HTF49-Liteweight";
@@ -733,13 +890,15 @@ header #navigation .logo img {
       font-family: 70px !important; } }
   @media only screen and (max-width: 992px) and (min-width: 769px) {
     .start div div div .box__ .inform h1 {
-      font-family: 60px !important; } }
+      font-size: 60px !important; } }
   @media only screen and (max-width: 768px) and (min-width: 541px) {
     .start div div div .box__ .inform h1 {
-      font-family: 55px !important; } }
+      font-size: 55px !important;
+      margin-bottom: 0px !important; } }
   @media only screen and (max-width: 540px) and (min-width: 200px) {
     .start div div div .box__ .inform h1 {
-      font-family: 55px !important; } }
+      font-size: 55px !important;
+      margin-bottom: 0px !important; } }
   .start div div div .box__ .inform h1 span {
     overflow: hidden; }
   .start div div div .box__ .inform h1 ._1 {
@@ -804,6 +963,12 @@ header #navigation .logo img {
   -webkit-animation-duration: 5s;
   animation-duration: 5s;
   opacity: 1; }
+  @media only screen and (max-width: 768px) and (min-width: 541px) {
+    .start div div div .box__ .eleps {
+      display: none !important; } }
+  @media only screen and (max-width: 540px) and (min-width: 200px) {
+    .start div div div .box__ .eleps {
+      display: none !important; } }
 
 @-webkit-keyframes eleps {
   0% {
@@ -1008,6 +1173,12 @@ header #navigation .logo img {
   opacity: 1;
   width: 750px;
   height: auto; }
+  @media only screen and (max-width: 768px) and (min-width: 541px) {
+    .start div div div .box__ .dj {
+      display: none !important; } }
+  @media only screen and (max-width: 540px) and (min-width: 200px) {
+    .start div div div .box__ .dj {
+      display: none !important; } }
 
 @-webkit-keyframes djdj {
   0% {
@@ -1047,6 +1218,12 @@ header #navigation .logo img {
                         opacity: 1;
                     }
                 } */ }
+  @media only screen and (max-width: 768px) and (min-width: 541px) {
+    .start div div div .box__ .duct-tape {
+      display: none !important; } }
+  @media only screen and (max-width: 540px) and (min-width: 200px) {
+    .start div div div .box__ .duct-tape {
+      display: none !important; } }
 
 .start div div div .lin_o:before {
   width: 1px;
@@ -1088,6 +1265,15 @@ header #navigation .logo img {
   animation-name: rlinafter;
   -webkit-animation-duration: 2.7s;
   animation-duration: 2.7s; }
+  @media only screen and (max-width: 992px) and (min-width: 769px) {
+    .start div div div .rlin:after {
+      height: auto !important; } }
+  @media only screen and (max-width: 768px) and (min-width: 541px) {
+    .start div div div .rlin:after {
+      display: none !important; } }
+  @media only screen and (max-width: 540px) and (min-width: 200px) {
+    .start div div div .rlin:after {
+      display: none !important; } }
 
 @keyframes rlinafter {
   0% {
@@ -1111,6 +1297,15 @@ header #navigation .logo img {
   animation-name: lin_wbefore;
   -webkit-animation-duration: 2.7s;
   animation-duration: 2.7s; }
+  @media only screen and (max-width: 992px) and (min-width: 769px) {
+    .start div div div .lin_w:before {
+      height: auto !important; } }
+  @media only screen and (max-width: 768px) and (min-width: 541px) {
+    .start div div div .lin_w:before {
+      display: none !important; } }
+  @media only screen and (max-width: 540px) and (min-width: 200px) {
+    .start div div div .lin_w:before {
+      display: none !important; } }
 
 @keyframes lin_wbefore {
   0% {
@@ -1132,6 +1327,15 @@ header #navigation .logo img {
   animation-name: lin_tbefore;
   -webkit-animation-duration: 2.7s;
   animation-duration: 2.7s; }
+  @media only screen and (max-width: 992px) and (min-width: 769px) {
+    .start div div div .lin_t:before {
+      height: auto !important; } }
+  @media only screen and (max-width: 768px) and (min-width: 541px) {
+    .start div div div .lin_t:before {
+      display: none !important; } }
+  @media only screen and (max-width: 540px) and (min-width: 200px) {
+    .start div div div .lin_t:before {
+      display: none !important; } }
 
 @keyframes lin_tbefore {
   0% {

@@ -442,8 +442,30 @@ header {
     div div div div div {
         .wid {
             height: 100vh;
+            @media only screen and (max-width: 992px) and (min-width: 769px) {
+                height: auto !important;
+                text-align: center;
+            }
+            @media only screen and (max-width: 768px) and (min-width: 541px) {
+                height: auto !important;
+                text-align: center;
+            }
+            @media only screen and (max-width: 540px) and (min-width: 200px) {
+                height: auto !important;
+                text-align: center !important;
+            }
             .af {
                 height: 100vh;
+                @media only screen and (max-width: 992px) and (min-width: 769px) {
+                    height: auto !important;
+                    text-align: center;
+                }
+                @media only screen and (max-width: 768px) and (min-width: 541px) {
+                    display: none !important;
+                }
+                @media only screen and (max-width: 540px) and (min-width: 200px) {
+                    display: none !important;
+                }
             }
             .af:before {
                 content: "";
@@ -457,6 +479,16 @@ header {
                 bottom: 40px;
                 top: 43px;
                 left: 119px;
+                @media only screen and (max-width: 992px) and (min-width: 769px) {
+                    height: auto !important;
+                    text-align: center;
+                }
+                @media only screen and (max-width: 768px) and (min-width: 541px) {
+                    display: none !important;
+                }
+                @media only screen and (max-width: 540px) and (min-width: 200px) {
+                    display: none !important;
+                }
             }
             .af:after {
                 content: "";
@@ -469,11 +501,33 @@ header {
                 position: absolute;
                 bottom: 40px;
                 left: 119px;
+                @media only screen and (max-width: 992px) and (min-width: 769px) {
+                    height: auto !important;
+                    text-align: center !important;
+                }
+                @media only screen and (max-width: 768px) and (min-width: 541px) {
+                    display: none !important;
+                }
+                @media only screen and (max-width: 540px) and (min-width: 200px) {
+                    display: none !important;
+                }
             }
         }
         [class*="p_box_"] {
             height: 100vh;
             text-align: left;
+            @media only screen and (max-width: 992px) and (min-width: 769px) {
+                height: auto !important;
+                text-align: center;
+            }
+            @media only screen and (max-width: 768px) and (min-width: 541px) {
+                height: auto !important;
+                text-align: center;
+            }
+            @media only screen and (max-width: 540px) and (min-width: 200px) {
+                height: auto !important;
+                text-align: center;
+            }
         }
         .box__ {
             &:before {
@@ -487,6 +541,12 @@ header {
                 position: absolute;
                 top: 43px;
                 left: 119px;
+                @media only screen and (max-width: 768px) and (min-width: 541px) {
+                    display: none !important;
+                }
+                @media only screen and (max-width: 540px) and (min-width: 200px) {
+                    display: none !important;
+                }
             }
             &:after {
                 content: "";
@@ -499,6 +559,12 @@ header {
                 position: absolute;
                 bottom: 40px;
                 left: 119px;
+                @media only screen and (max-width: 768px) and (min-width: 541px) {
+                    display: none !important;
+                }
+                @media only screen and (max-width: 540px) and (min-width: 200px) {
+                    display: none !important;
+                }
             }
         }
         .lin_o:before {
@@ -513,6 +579,15 @@ header {
             animation-iteration-count: 1;
             animation-name: linbefore;
             animation-duration: 3.7s;
+            @media only screen and (max-width: 992px) and (min-width: 769px) {
+                height: auto !important;
+            }
+            @media only screen and (max-width: 768px) and (min-width: 541px) {
+                display: none !important;
+            }
+            @media only screen and (max-width: 540px) and (min-width: 200px) {
+                display: none !important;
+            }
             @keyframes linbefore {
                 0% {
                     height: 0vh;
@@ -535,6 +610,15 @@ header {
             animation-iteration-count: 1;
             animation-name: rlinafter;
             animation-duration: 3.7s;
+            @media only screen and (max-width: 992px) and (min-width: 769px) {
+                height: auto !important;
+            }
+            @media only screen and (max-width: 768px) and (min-width: 541px) {
+                display: none !important;
+            }
+            @media only screen and (max-width: 540px) and (min-width: 200px) {
+                display: none !important;
+            }
             @keyframes rlinafter {
                 0% {
                     height: 0vh;
@@ -556,6 +640,15 @@ header {
             animation-iteration-count: 1;
             animation-name: lin_wbefore;
             animation-duration: 3.7s;
+            @media only screen and (max-width: 992px) and (min-width: 769px) {
+                height: auto !important;
+            }
+            @media only screen and (max-width: 768px) and (min-width: 541px) {
+                display: none !important;
+            }
+            @media only screen and (max-width: 540px) and (min-width: 200px) {
+                display: none !important;
+            }
             @keyframes lin_wbefore {
                 0% {
                     height: 0vh;
@@ -576,6 +669,15 @@ header {
             animation-iteration-count: 1;
             animation-name: lin_tbefore;
             animation-duration: 3.7s;
+            @media only screen and (max-width: 992px) and (min-width: 769px) {
+                height: auto !important;
+            }
+            @media only screen and (max-width: 768px) and (min-width: 541px) {
+                display: none !important;
+            }
+            @media only screen and (max-width: 540px) and (min-width: 200px) {
+                display: none !important;
+            }
             @keyframes lin_tbefore {
                 0% {
                     height: 0vh;
@@ -589,10 +691,29 @@ header {
     div div div {
         .wid {
             height: 100vh;
+            @media only screen and (max-width: 992px) and (min-width: 769px) {
+                height: auto !important;
+                text-align: center !important;
+            }
+            @media only screen and (max-width: 768px) and (min-width: 541px) {
+                display: none;
+            }
+            @media only screen and (max-width: 540px) and (min-width: 200px) {
+                display: none;
+            }
             .af {
                 transition: all 1.3s ease !important;
                 background: #fff;
                 height: 100vh;
+                @media only screen and (max-width: 992px) and (min-width: 769px) {
+                    height: auto !important;
+                }
+                @media only screen and (max-width: 768px) and (min-width: 541px) {
+                    display: none;
+                }
+                @media only screen and (max-width: 540px) and (min-width: 200px) {
+                    display: none;
+                }
             }
             .af:before {
                 content: "";
@@ -635,6 +756,15 @@ header {
                 }
                 bottom: 40px;
                 right: -1px;
+                @media only screen and (max-width: 992px) and (min-width: 769px) {
+                    height: auto !important;
+                }
+                @media only screen and (max-width: 768px) and (min-width: 541px) {
+                    display: none;
+                }
+                @media only screen and (max-width: 540px) and (min-width: 200px) {
+                    display: none;
+                }
             }
             .af:after {
                 content: "";
@@ -647,6 +777,15 @@ header {
                 position: absolute;
                 bottom: 40px;
                 right: -1px;
+                @media only screen and (max-width: 992px) and (min-width: 769px) {
+                    height: auto !important;
+                }
+                @media only screen and (max-width: 768px) and (min-width: 541px) {
+                    display: none;
+                }
+                @media only screen and (max-width: 540px) and (min-width: 200px) {
+                    display: none;
+                }
             }
         }
         .box__ {
@@ -690,6 +829,15 @@ header {
                     top: 25px;
                 }
                 left: -1px;
+                @media only screen and (max-width: 992px) and (min-width: 769px) {
+                    height: auto !important;
+                }
+                @media only screen and (max-width: 768px) and (min-width: 541px) {
+                    display: none;
+                }
+                @media only screen and (max-width: 540px) and (min-width: 200px) {
+                    display: none;
+                }
             }
             &:after {
                 content: "";
@@ -702,6 +850,15 @@ header {
                 position: absolute;
                 bottom: 40px;
                 left: -1px;
+                @media only screen and (max-width: 992px) and (min-width: 769px) {
+                    height: auto !important;
+                }
+                @media only screen and (max-width: 768px) and (min-width: 541px) {
+                    display: none !important;
+                }
+                @media only screen and (max-width: 540px) and (min-width: 200px) {
+                    display: none !important;
+                }
             }
             .inform {
                 p {
@@ -740,13 +897,15 @@ header {
                         font-family: 70px !important;
                     }
                     @media only screen and (max-width: 992px) and (min-width: 769px) {
-                        font-family: 60px !important;
+                        font-size: 60px !important;
                     }
                     @media only screen and (max-width: 768px) and (min-width: 541px) {
-                        font-family: 55px !important;
+                        font-size: 55px !important;
+                        margin-bottom: 0px !important;
                     }
                     @media only screen and (max-width: 540px) and (min-width: 200px) {
-                        font-family: 55px !important;
+                        font-size: 55px !important;
+                        margin-bottom: 0px !important;
                     }
                     span {
                         overflow: hidden;
@@ -794,6 +953,12 @@ header {
                 animation-name: eleps;
                 animation-duration: 5s;
                 opacity: 1;
+                @media only screen and (max-width: 768px) and (min-width: 541px) {
+                    display: none!important;
+                }
+                @media only screen and (max-width: 540px) and (min-width: 200px) {
+                    display: none!important;
+                }
                 @keyframes eleps {
                     0% {
                         width: 30px;
@@ -968,6 +1133,12 @@ header {
                 opacity: 1;
                 width: 750px;
                 height: auto;
+                @media only screen and (max-width: 768px) and (min-width: 541px) {
+                    display: none!important;
+                }
+                @media only screen and (max-width: 540px) and (min-width: 200px) {
+                    display: none!important;
+                }
                 @keyframes djdj {
                     0% {
                         width: 30%;
@@ -990,6 +1161,12 @@ header {
                 animation-name: ducttape;
                 animation-duration: 2.1s;
                 opacity: 1;
+                @media only screen and (max-width: 768px) and (min-width: 541px) {
+                    display: none!important;
+                }
+                @media only screen and (max-width: 540px) and (min-width: 200px) {
+                    display: none!important;
+                }
                 /*   @keyframes ducttape {
                     0% {
                         opacity: 0;
@@ -1034,6 +1211,15 @@ header {
             animation-iteration-count: 1;
             animation-name: rlinafter;
             animation-duration: 2.7s;
+            @media only screen and (max-width: 992px) and (min-width: 769px) {
+                height: auto !important;
+            }
+            @media only screen and (max-width: 768px) and (min-width: 541px) {
+                display: none !important;
+            }
+            @media only screen and (max-width: 540px) and (min-width: 200px) {
+                display: none !important;
+            }
             @keyframes rlinafter {
                 0% {
                     height: 0vh;
@@ -1055,6 +1241,15 @@ header {
             animation-iteration-count: 1;
             animation-name: lin_wbefore;
             animation-duration: 2.7s;
+            @media only screen and (max-width: 992px) and (min-width: 769px) {
+                height: auto !important;
+            }
+            @media only screen and (max-width: 768px) and (min-width: 541px) {
+                display: none !important;
+            }
+            @media only screen and (max-width: 540px) and (min-width: 200px) {
+                display: none !important;
+            }
             @keyframes lin_wbefore {
                 0% {
                     height: 0vh;
@@ -1075,6 +1270,15 @@ header {
             animation-iteration-count: 1;
             animation-name: lin_tbefore;
             animation-duration: 2.7s;
+            @media only screen and (max-width: 992px) and (min-width: 769px) {
+                height: auto !important;
+            }
+            @media only screen and (max-width: 768px) and (min-width: 541px) {
+                display: none !important;
+            }
+            @media only screen and (max-width: 540px) and (min-width: 200px) {
+                display: none !important;
+            }
             @keyframes lin_tbefore {
                 0% {
                     height: 0vh;
