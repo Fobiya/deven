@@ -603,7 +603,36 @@ header {
                 opacity: 1!important;
                 display: block;
                 position: absolute;
-                top: 60px;
+                @media only screen and (max-height: 1350px) and (min-height: 1301px) {
+                    top: 80px;
+                }
+                @media only screen and (max-height: 1300px) and (min-height: 1251px) {
+                    top: 75px;
+                }
+                @media only screen and (max-height: 1250px) and (min-height: 1201px) {
+                    top: 60px;
+                }
+                @media only screen and (max-height: 1200px) and (min-height: 1151px) {
+                    top: 55px;
+                }
+                @media only screen and (max-height: 1150px) and (min-height: 1101px) {
+                    top: 50px;
+                }
+                @media only screen and (max-height: 1100px) and (min-height: 1051px) {
+                    top: 45px;
+                }
+                @media only screen and (max-height: 1000px) and (min-height: 901px) {
+                    top: 40px;
+                }
+                @media only screen and (max-height: 850px) and (min-height: 801px) {
+                    top: 35px;
+                }
+                @media only screen and (max-height: 800px) and (min-height: 751px) {
+                    top: 30px;
+                }
+                @media only screen and (max-height: 750px) and (min-height: 700px) {
+                    top: 25px;
+                }
                 bottom: 40px;
                 right: -1px;
             }
@@ -630,7 +659,36 @@ header {
                 transition-delay: 2.7s;
                 opacity: 1!important;
                 position: absolute;
-                top: 60px;
+                @media only screen and (max-height: 1350px) and (min-height: 1301px) {
+                    top: 80px;
+                }
+                @media only screen and (max-height: 1300px) and (min-height: 1251px) {
+                    top: 75px;
+                }
+                @media only screen and (max-height: 1250px) and (min-height: 1201px) {
+                    top: 60px;
+                }
+                @media only screen and (max-height: 1200px) and (min-height: 1151px) {
+                    top: 55px;
+                }
+                @media only screen and (max-height: 1150px) and (min-height: 1101px) {
+                    top: 50px;
+                }
+                @media only screen and (max-height: 1100px) and (min-height: 1051px) {
+                    top: 45px;
+                }
+                @media only screen and (max-height: 1000px) and (min-height: 901px) {
+                    top: 40px;
+                }
+                @media only screen and (max-height: 850px) and (min-height: 801px) {
+                    top: 35px;
+                }
+                @media only screen and (max-height: 800px) and (min-height: 751px) {
+                    top: 30px;
+                }
+                @media only screen and (max-height: 750px) and (min-height: 700px) {
+                    top: 25px;
+                }
                 left: -1px;
             }
             &:after {
@@ -747,6 +805,22 @@ header {
                 animation-name: liniar;
                 animation-duration: 11s;
                 opacity: 1;
+                @media only screen and (max-width: 1599px) and (min-width: 1200px) {
+                    width: 912px!important;
+                    right: -608px!important;
+                }
+                @media only screen and (max-width: 1199px) and (min-width: 993px) {
+                    display: none !important;
+                }
+                @media only screen and (max-width: 992px) and (min-width: 769px) {
+                    display: none !important;
+                }
+                @media only screen and (max-width: 768px) and (min-width: 541px) {
+                    display: none !important;
+                }
+                @media only screen and (max-width: 540px) and (min-width: 200px) {
+                    display: none !important;
+                }
                 @keyframes liniar {
                     0% {
                         width: 0px;
@@ -839,6 +913,22 @@ header {
                 opacity: 1;
                 width: 570px;
                 height: 536px;
+                @media only screen and (max-width: 1599px) and (min-width: 1200px) {
+                    width: 100% !important;
+                    height: auto !important;
+                }
+                @media only screen and (max-width: 1199px) and (min-width: 993px) {
+                    display: none !important;
+                }
+                @media only screen and (max-width: 992px) and (min-width: 769px) {
+                    display: none !important;
+                }
+                @media only screen and (max-width: 768px) and (min-width: 541px) {
+                    display: none !important;
+                }
+                @media only screen and (max-width: 540px) and (min-width: 200px) {
+                    display: none !important;
+                }
                 @keyframes grin {
                     0% {
                         width: 70px;
@@ -1014,6 +1104,29 @@ header {
     .tour {
         z-index: -1;
         position: absolute;
+        @media only screen and (max-width: 1920px) and (min-width: 1600px) {
+            max-width: 1920px!important;
+            width: 100% !important;
+            height: auto !important;
+        }
+        @media only screen and (max-width: 1599px) and (min-width: 1200px) {
+            max-width: 1920px!important;
+            width: 100% !important;
+            height: auto !important;
+            margin-top: 0px !important;
+        }
+        @media only screen and (max-width: 1199px) and (min-width: 993px) {
+            display: none !important;
+        }
+        @media only screen and (max-width: 992px) and (min-width: 769px) {
+            display: none !important;
+        }
+        @media only screen and (max-width: 768px) and (min-width: 541px) {
+            display: none !important;
+        }
+        @media only screen and (max-width: 540px) and (min-width: 200px) {
+            display: none !important;
+        }
         width: 1920px;
         height: 266px;
         overflow: hidden;
@@ -1298,6 +1411,21 @@ header {
             opacity: 0;
             width: 70px;
             height: 66px;
+            @media only screen and (max-width: 1599px) and (min-width: 1200px) {
+                width: 300px !important;
+            }
+            @media only screen and (max-width: 1199px) and (min-width: 993px) {
+                display: none !important;
+            }
+            @media only screen and (max-width: 992px) and (min-width: 769px) {
+                display: none !important;
+            }
+            @media only screen and (max-width: 768px) and (min-width: 541px) {
+                display: none !important;
+            }
+            @media only screen and (max-width: 540px) and (min-width: 200px) {
+                display: none !important;
+            }
         }
         .dj {
             position: absolute;
@@ -1307,6 +1435,21 @@ header {
             opacity: 0;
             margin-left: 167px;
             width: 30%;
+            @media only screen and (max-width: 1599px) and (min-width: 1200px) {
+                width: 600px !important;
+            }
+            @media only screen and (max-width: 1199px) and (min-width: 993px) {
+                display: none !important;
+            }
+            @media only screen and (max-width: 992px) and (min-width: 769px) {
+                display: none !important;
+            }
+            @media only screen and (max-width: 768px) and (min-width: 541px) {
+                display: none !important;
+            }
+            @media only screen and (max-width: 540px) and (min-width: 200px) {
+                display: none !important;
+            }
         }
         .duct-tape {
             top: 166px;

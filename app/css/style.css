@@ -589,9 +589,38 @@ header #navigation .logo img {
     opacity: 1 !important;
     display: block;
     position: absolute;
-    top: 60px;
     bottom: 40px;
     right: -1px; }
+    @media only screen and (max-height: 1350px) and (min-height: 1301px) {
+      .start div div div .wid .af:before {
+        top: 80px; } }
+    @media only screen and (max-height: 1300px) and (min-height: 1251px) {
+      .start div div div .wid .af:before {
+        top: 75px; } }
+    @media only screen and (max-height: 1250px) and (min-height: 1201px) {
+      .start div div div .wid .af:before {
+        top: 60px; } }
+    @media only screen and (max-height: 1200px) and (min-height: 1151px) {
+      .start div div div .wid .af:before {
+        top: 55px; } }
+    @media only screen and (max-height: 1150px) and (min-height: 1101px) {
+      .start div div div .wid .af:before {
+        top: 50px; } }
+    @media only screen and (max-height: 1100px) and (min-height: 1051px) {
+      .start div div div .wid .af:before {
+        top: 45px; } }
+    @media only screen and (max-height: 1000px) and (min-height: 901px) {
+      .start div div div .wid .af:before {
+        top: 40px; } }
+    @media only screen and (max-height: 850px) and (min-height: 801px) {
+      .start div div div .wid .af:before {
+        top: 35px; } }
+    @media only screen and (max-height: 800px) and (min-height: 751px) {
+      .start div div div .wid .af:before {
+        top: 30px; } }
+    @media only screen and (max-height: 750px) and (min-height: 700px) {
+      .start div div div .wid .af:before {
+        top: 25px; } }
   .start div div div .wid .af:after {
     content: "";
     width: 3px;
@@ -615,8 +644,37 @@ header #navigation .logo img {
   transition-delay: 2.7s;
   opacity: 1 !important;
   position: absolute;
-  top: 60px;
   left: -1px; }
+  @media only screen and (max-height: 1350px) and (min-height: 1301px) {
+    .start div div div .box__:before {
+      top: 80px; } }
+  @media only screen and (max-height: 1300px) and (min-height: 1251px) {
+    .start div div div .box__:before {
+      top: 75px; } }
+  @media only screen and (max-height: 1250px) and (min-height: 1201px) {
+    .start div div div .box__:before {
+      top: 60px; } }
+  @media only screen and (max-height: 1200px) and (min-height: 1151px) {
+    .start div div div .box__:before {
+      top: 55px; } }
+  @media only screen and (max-height: 1150px) and (min-height: 1101px) {
+    .start div div div .box__:before {
+      top: 50px; } }
+  @media only screen and (max-height: 1100px) and (min-height: 1051px) {
+    .start div div div .box__:before {
+      top: 45px; } }
+  @media only screen and (max-height: 1000px) and (min-height: 901px) {
+    .start div div div .box__:before {
+      top: 40px; } }
+  @media only screen and (max-height: 850px) and (min-height: 801px) {
+    .start div div div .box__:before {
+      top: 35px; } }
+  @media only screen and (max-height: 800px) and (min-height: 751px) {
+    .start div div div .box__:before {
+      top: 30px; } }
+  @media only screen and (max-height: 750px) and (min-height: 700px) {
+    .start div div div .box__:before {
+      top: 25px; } }
 
 .start div div div .box__:after {
   content: "";
@@ -768,6 +826,22 @@ header #navigation .logo img {
   -webkit-animation-duration: 11s;
   animation-duration: 11s;
   opacity: 1; }
+  @media only screen and (max-width: 1599px) and (min-width: 1200px) {
+    .start div div div .box__ .liniar {
+      width: 912px !important;
+      right: -608px !important; } }
+  @media only screen and (max-width: 1199px) and (min-width: 993px) {
+    .start div div div .box__ .liniar {
+      display: none !important; } }
+  @media only screen and (max-width: 992px) and (min-width: 769px) {
+    .start div div div .box__ .liniar {
+      display: none !important; } }
+  @media only screen and (max-width: 768px) and (min-width: 541px) {
+    .start div div div .box__ .liniar {
+      display: none !important; } }
+  @media only screen and (max-width: 540px) and (min-width: 200px) {
+    .start div div div .box__ .liniar {
+      display: none !important; } }
 
 @-webkit-keyframes liniar {
   0% {
@@ -870,6 +944,22 @@ header #navigation .logo img {
   opacity: 1;
   width: 570px;
   height: 536px; }
+  @media only screen and (max-width: 1599px) and (min-width: 1200px) {
+    .start div div div .box__ .grin {
+      width: 100% !important;
+      height: auto !important; } }
+  @media only screen and (max-width: 1199px) and (min-width: 993px) {
+    .start div div div .box__ .grin {
+      display: none !important; } }
+  @media only screen and (max-width: 992px) and (min-width: 769px) {
+    .start div div div .box__ .grin {
+      display: none !important; } }
+  @media only screen and (max-width: 768px) and (min-width: 541px) {
+    .start div div div .box__ .grin {
+      display: none !important; } }
+  @media only screen and (max-width: 540px) and (min-width: 200px) {
+    .start div div div .box__ .grin {
+      display: none !important; } }
 
 @-webkit-keyframes grin {
   0% {
@@ -1080,6 +1170,29 @@ header #navigation .logo img {
     height: 266px;
     overflow: hidden;
     opacity: 0; }
+    @media only screen and (max-width: 1920px) and (min-width: 1600px) {
+      .blok__01 .tour {
+        max-width: 1920px !important;
+        width: 100% !important;
+        height: auto !important; } }
+    @media only screen and (max-width: 1599px) and (min-width: 1200px) {
+      .blok__01 .tour {
+        max-width: 1920px !important;
+        width: 100% !important;
+        height: auto !important;
+        margin-top: 0px !important; } }
+    @media only screen and (max-width: 1199px) and (min-width: 993px) {
+      .blok__01 .tour {
+        display: none !important; } }
+    @media only screen and (max-width: 992px) and (min-width: 769px) {
+      .blok__01 .tour {
+        display: none !important; } }
+    @media only screen and (max-width: 768px) and (min-width: 541px) {
+      .blok__01 .tour {
+        display: none !important; } }
+    @media only screen and (max-width: 540px) and (min-width: 200px) {
+      .blok__01 .tour {
+        display: none !important; } }
   .blok__01 .row {
     margin-left: 0px !important;
     margin-right: 0px !important; }
@@ -1339,6 +1452,21 @@ header #navigation .logo img {
       opacity: 0;
       width: 70px;
       height: 66px; }
+      @media only screen and (max-width: 1599px) and (min-width: 1200px) {
+        .blok__01 .box__ .grin {
+          width: 300px !important; } }
+      @media only screen and (max-width: 1199px) and (min-width: 993px) {
+        .blok__01 .box__ .grin {
+          display: none !important; } }
+      @media only screen and (max-width: 992px) and (min-width: 769px) {
+        .blok__01 .box__ .grin {
+          display: none !important; } }
+      @media only screen and (max-width: 768px) and (min-width: 541px) {
+        .blok__01 .box__ .grin {
+          display: none !important; } }
+      @media only screen and (max-width: 540px) and (min-width: 200px) {
+        .blok__01 .box__ .grin {
+          display: none !important; } }
     .blok__01 .box__ .dj {
       position: absolute;
       display: block;
@@ -1347,6 +1475,21 @@ header #navigation .logo img {
       opacity: 0;
       margin-left: 167px;
       width: 30%; }
+      @media only screen and (max-width: 1599px) and (min-width: 1200px) {
+        .blok__01 .box__ .dj {
+          width: 600px !important; } }
+      @media only screen and (max-width: 1199px) and (min-width: 993px) {
+        .blok__01 .box__ .dj {
+          display: none !important; } }
+      @media only screen and (max-width: 992px) and (min-width: 769px) {
+        .blok__01 .box__ .dj {
+          display: none !important; } }
+      @media only screen and (max-width: 768px) and (min-width: 541px) {
+        .blok__01 .box__ .dj {
+          display: none !important; } }
+      @media only screen and (max-width: 540px) and (min-width: 200px) {
+        .blok__01 .box__ .dj {
+          display: none !important; } }
     .blok__01 .box__ .duct-tape {
       top: 166px;
       float: right;
