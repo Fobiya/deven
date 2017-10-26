@@ -1022,15 +1022,15 @@ header {
                     right: -408px !important;
                 }
                 @media only screen and (max-width: 992px) and (min-width: 769px) {
-                    width: 100%;
+                    display: none;
                     text-align: center;
                 }
                 @media only screen and (max-width: 768px) and (min-width: 541px) {
-                    width: 100%;
+                    display: none;
                     text-align: center;
                 }
                 @media only screen and (max-width: 540px) and (min-width: 200px) {
-                    width: 100%;
+                    display: none;
                     text-align: center;
                 }
                 @keyframes liniar {
