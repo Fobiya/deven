@@ -641,8 +641,8 @@ header #navigation .logo img {
   height: 13px;
   background-color: #000000;
   display: block;
-  -webkit-transition-delay: 3.7s;
-  transition-delay: 3.7s;
+  -webkit-transition-delay: 3s;
+  transition-delay: 3s;
   opacity: 1 !important;
   position: absolute;
   top: 43px;
@@ -687,8 +687,8 @@ header #navigation .logo img {
   animation-iteration-count: 1;
   -webkit-animation-name: linbefore;
   animation-name: linbefore;
-  -webkit-animation-duration: 3.7s;
-  animation-duration: 3.7s; }
+  -webkit-animation-duration: 3s;
+  animation-duration: 3s; }
   @media only screen and (max-width: 992px) and (min-width: 769px) {
     .start div div div div div .lin_o:before {
       height: auto !important; } }
@@ -726,8 +726,8 @@ header #navigation .logo img {
   animation-iteration-count: 1;
   -webkit-animation-name: rlinafter;
   animation-name: rlinafter;
-  -webkit-animation-duration: 3.7s;
-  animation-duration: 3.7s; }
+  -webkit-animation-duration: 3s;
+  animation-duration: 3s; }
   @media only screen and (max-width: 992px) and (min-width: 769px) {
     .start div div div div div .rlin:after {
       height: auto !important; } }
@@ -764,8 +764,8 @@ header #navigation .logo img {
   animation-iteration-count: 1;
   -webkit-animation-name: lin_wbefore;
   animation-name: lin_wbefore;
-  -webkit-animation-duration: 3.7s;
-  animation-duration: 3.7s; }
+  -webkit-animation-duration: 3s;
+  animation-duration: 3s; }
   @media only screen and (max-width: 992px) and (min-width: 769px) {
     .start div div div div div .lin_w:before {
       height: auto !important; } }
@@ -800,8 +800,8 @@ header #navigation .logo img {
   animation-iteration-count: 1;
   -webkit-animation-name: lin_tbefore;
   animation-name: lin_tbefore;
-  -webkit-animation-duration: 3.7s;
-  animation-duration: 3.7s; }
+  -webkit-animation-duration: 3s;
+  animation-duration: 3s; }
   @media only screen and (max-width: 992px) and (min-width: 769px) {
     .start div div div div div .lin_t:before {
       height: auto !important; } }
@@ -996,6 +996,18 @@ header #navigation .logo img {
     .start div div div .box__:after {
       display: none !important; } }
 
+@media only screen and (max-width: 992px) and (min-width: 769px) {
+  .start div div div .box__ .inform {
+    text-align: center !important; } }
+
+@media only screen and (max-width: 768px) and (min-width: 541px) {
+  .start div div div .box__ .inform {
+    text-align: center !important; } }
+
+@media only screen and (max-width: 540px) and (min-width: 200px) {
+  .start div div div .box__ .inform {
+    text-align: center !important; } }
+
 .start div div div .box__ .inform p {
   font: 18px "Knockout-HTF49-Liteweight";
   color: #000;
@@ -1005,8 +1017,8 @@ header #navigation .logo img {
   animation-iteration-count: 1;
   -webkit-animation-name: inform;
   animation-name: inform;
-  -webkit-animation-duration: 3.7s;
-  animation-duration: 3.7s;
+  -webkit-animation-duration: 2.7s;
+  animation-duration: 2.7s;
   margin-left: 0px;
   opacity: 1; }
 
@@ -1100,6 +1112,18 @@ header #navigation .logo img {
 
 .start div div div .box__ .inform .bottom__black {
   margin-left: 125px; }
+  @media only screen and (max-width: 992px) and (min-width: 769px) {
+    .start div div div .box__ .inform .bottom__black {
+      margin-left: auto !important;
+      margin-right: auto !important; } }
+  @media only screen and (max-width: 768px) and (min-width: 541px) {
+    .start div div div .box__ .inform .bottom__black {
+      margin-left: auto !important;
+      margin-right: auto !important; } }
+  @media only screen and (max-width: 540px) and (min-width: 200px) {
+    .start div div div .box__ .inform .bottom__black {
+      margin-left: auto !important;
+      margin-right: auto !important; } }
 
 .start div div div .box__ .eleps {
   margin-left: 185px;
@@ -1110,8 +1134,8 @@ header #navigation .logo img {
   animation-iteration-count: 1;
   -webkit-animation-name: eleps;
   animation-name: eleps;
-  -webkit-animation-duration: 5s;
-  animation-duration: 5s;
+  -webkit-animation-duration: 3s;
+  animation-duration: 3s;
   opacity: 1; }
   @media only screen and (max-width: 768px) and (min-width: 541px) {
     .start div div div .box__ .eleps {
@@ -1149,25 +1173,29 @@ header #navigation .logo img {
   animation-iteration-count: 1;
   -webkit-animation-name: liniar;
   animation-name: liniar;
-  -webkit-animation-duration: 11s;
-  animation-duration: 11s;
+  -webkit-animation-duration: 6s;
+  animation-duration: 6s;
   opacity: 1; }
   @media only screen and (max-width: 1599px) and (min-width: 1200px) {
     .start div div div .box__ .liniar {
-      width: 912px !important;
-      right: -608px !important; } }
+      width: 712px !important;
+      right: -408px !important; } }
   @media only screen and (max-width: 1199px) and (min-width: 993px) {
     .start div div div .box__ .liniar {
-      display: none !important; } }
+      width: 712px !important;
+      right: -408px !important; } }
   @media only screen and (max-width: 992px) and (min-width: 769px) {
     .start div div div .box__ .liniar {
-      display: none !important; } }
+      width: 100%;
+      text-align: center; } }
   @media only screen and (max-width: 768px) and (min-width: 541px) {
     .start div div div .box__ .liniar {
-      display: none !important; } }
+      width: 100%;
+      text-align: center; } }
   @media only screen and (max-width: 540px) and (min-width: 200px) {
     .start div div div .box__ .liniar {
-      display: none !important; } }
+      width: 100%;
+      text-align: center; } }
 
 @-webkit-keyframes liniar {
   0% {
@@ -1368,6 +1396,12 @@ header #navigation .logo img {
                         opacity: 1;
                     }
                 } */ }
+  @media only screen and (max-width: 1599px) and (min-width: 1200px) {
+    .start div div div .box__ .duct-tape {
+      right: -400px; } }
+  @media only screen and (max-width: 1199px) and (min-width: 993px) {
+    .start div div div .box__ .duct-tape {
+      right: -400px; } }
   @media only screen and (max-width: 768px) and (min-width: 541px) {
     .start div div div .box__ .duct-tape {
       display: none !important; } }
@@ -1764,6 +1798,12 @@ header #navigation .logo img {
           width: 120% !important;
           -webkit-transition: all 1.5s ease !important;
           transition: all 1.5s ease !important; } }
+      @media only screen and (max-width: 1599px) and (min-width: 1200px) {
+        .blok__01 .box__ .eleps {
+          width: 100% !important; } }
+      @media only screen and (max-width: 1199px) and (min-width: 993px) {
+        .blok__01 .box__ .eleps {
+          width: 100% !important; } }
       @media only screen and (max-width: 992px) and (min-width: 769px) {
         .blok__01 .box__ .eleps {
           display: none !important; } }

@@ -545,7 +545,7 @@ header {
                 height: 13px;
                 background-color: #000000;
                 display: block;
-                transition-delay: 3.7s;
+                transition-delay: 3s;
                 opacity: 1!important;
                 position: absolute;
                 top: 43px;
@@ -587,7 +587,7 @@ header {
             animation-duration: reverse;
             animation-iteration-count: 1;
             animation-name: linbefore;
-            animation-duration: 3.7s;
+            animation-duration: 3s;
             @media only screen and (max-width: 992px) and (min-width: 769px) {
                 height: auto !important;
             }
@@ -618,7 +618,7 @@ header {
             animation-duration: reverse;
             animation-iteration-count: 1;
             animation-name: rlinafter;
-            animation-duration: 3.7s;
+            animation-duration: 3s;
             @media only screen and (max-width: 992px) and (min-width: 769px) {
                 height: auto !important;
             }
@@ -648,7 +648,7 @@ header {
             animation-duration: reverse;
             animation-iteration-count: 1;
             animation-name: lin_wbefore;
-            animation-duration: 3.7s;
+            animation-duration: 3s;
             @media only screen and (max-width: 992px) and (min-width: 769px) {
                 height: auto !important;
             }
@@ -677,7 +677,7 @@ header {
             position: absolute;
             animation-iteration-count: 1;
             animation-name: lin_tbefore;
-            animation-duration: 3.7s;
+            animation-duration: 3s;
             @media only screen and (max-width: 992px) and (min-width: 769px) {
                 height: auto !important;
             }
@@ -870,6 +870,15 @@ header {
                 }
             }
             .inform {
+                @media only screen and (max-width: 992px) and (min-width: 769px) {
+                    text-align: center !important;
+                }
+                @media only screen and (max-width: 768px) and (min-width: 541px) {
+                    text-align: center !important;
+                }
+                @media only screen and (max-width: 540px) and (min-width: 200px) {
+                    text-align: center !important;
+                }
                 p {
                     font: 18px $h49;
                     color: #000;
@@ -877,7 +886,7 @@ header {
                     margin-bottom: 25px;
                     animation-iteration-count: 1;
                     animation-name: inform;
-                    animation-duration: 3.7s;
+                    animation-duration: 2.7s;
                     margin-left: 0px;
                     opacity: 1;
                     @keyframes inform {
@@ -952,6 +961,18 @@ header {
                 }
                 .bottom__black {
                     margin-left: 125px;
+                    @media only screen and (max-width: 992px) and (min-width: 769px) {
+                        margin-left: auto !important;
+                        margin-right: auto !important;
+                    }
+                    @media only screen and (max-width: 768px) and (min-width: 541px) {
+                        margin-left: auto !important;
+                        margin-right: auto !important;
+                    }
+                    @media only screen and (max-width: 540px) and (min-width: 200px) {
+                        margin-left: auto !important;
+                        margin-right: auto !important;
+                    }
                 }
             }
             .eleps {
@@ -960,7 +981,7 @@ header {
                 width: 824px;
                 animation-iteration-count: 1;
                 animation-name: eleps;
-                animation-duration: 5s;
+                animation-duration: 3s;
                 opacity: 1;
                 @media only screen and (max-width: 768px) and (min-width: 541px) {
                     display: none!important;
@@ -990,23 +1011,27 @@ header {
                 overflow: hidden;
                 animation-iteration-count: 1;
                 animation-name: liniar;
-                animation-duration: 11s;
+                animation-duration: 6s;
                 opacity: 1;
                 @media only screen and (max-width: 1599px) and (min-width: 1200px) {
-                    width: 912px!important;
-                    right: -608px!important;
+                    width: 712px !important;
+                    right: -408px !important;
                 }
                 @media only screen and (max-width: 1199px) and (min-width: 993px) {
-                    display: none !important;
+                    width: 712px !important;
+                    right: -408px !important;
                 }
                 @media only screen and (max-width: 992px) and (min-width: 769px) {
-                    display: none !important;
+                    width: 100%;
+                    text-align: center;
                 }
                 @media only screen and (max-width: 768px) and (min-width: 541px) {
-                    display: none !important;
+                    width: 100%;
+                    text-align: center;
                 }
                 @media only screen and (max-width: 540px) and (min-width: 200px) {
-                    display: none !important;
+                    width: 100%;
+                    text-align: center;
                 }
                 @keyframes liniar {
                     0% {
@@ -1170,6 +1195,12 @@ header {
                 animation-name: ducttape;
                 animation-duration: 2.1s;
                 opacity: 1;
+                @media only screen and (max-width: 1599px) and (min-width: 1200px) {
+                    right: -400px;
+                }
+                @media only screen and (max-width: 1199px) and (min-width: 993px) {
+                    right: -400px;
+                }
                 @media only screen and (max-width: 768px) and (min-width: 541px) {
                     display: none!important;
                 }
@@ -1578,8 +1609,12 @@ header {
                 width: 120%!important;
                 transition: all 1.5s ease !important;
             }
-            @media only screen and (max-width: 1599px) and (min-width: 1200px) {}
-            @media only screen and (max-width: 1199px) and (min-width: 993px) {}
+            @media only screen and (max-width: 1599px) and (min-width: 1200px) {
+                width: 100%!important;
+            }
+            @media only screen and (max-width: 1199px) and (min-width: 993px) {
+                width: 100%!important;
+            }
             @media only screen and (max-width: 992px) and (min-width: 769px) {
                 display: none !important;
             }
