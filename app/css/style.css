@@ -396,6 +396,156 @@ header #navigation .logo img {
 .start div div div div .col-hd-12 {
   padding-left: 120px !important;
   padding-right: 0px !important; }
+  @media only screen and (max-width: 992px) and (min-width: 769px) {
+    .start div div div div .col-mob-1,
+    .start div div div div .col-ipad-1,
+    .start div div div div .col-pc-1,
+    .start div div div div .col-hd-1,
+    .start div div div div .col-mob-2,
+    .start div div div div .col-ipad-2,
+    .start div div div div .col-pc-2,
+    .start div div div div .col-hd-2,
+    .start div div div div .col-mob-3,
+    .start div div div div .col-ipad-3,
+    .start div div div div .col-pc-3,
+    .start div div div div .col-hd-3,
+    .start div div div div .col-mob-4,
+    .start div div div div .col-ipad-4,
+    .start div div div div .col-pc-4,
+    .start div div div div .col-hd-4,
+    .start div div div div .col-mob-5,
+    .start div div div div .col-ipad-5,
+    .start div div div div .col-pc-5,
+    .start div div div div .col-hd-5,
+    .start div div div div .col-mob-6,
+    .start div div div div .col-ipad-6,
+    .start div div div div .col-pc-6,
+    .start div div div div .col-hd-6,
+    .start div div div div .col-mob-7,
+    .start div div div div .col-ipad-7,
+    .start div div div div .col-pc-7,
+    .start div div div div .col-hd-7,
+    .start div div div div .col-mob-8,
+    .start div div div div .col-ipad-8,
+    .start div div div div .col-pc-8,
+    .start div div div div .col-hd-8,
+    .start div div div div .col-mob-9,
+    .start div div div div .col-ipad-9,
+    .start div div div div .col-pc-9,
+    .start div div div div .col-hd-9,
+    .start div div div div .col-mob-10,
+    .start div div div div .col-ipad-10,
+    .start div div div div .col-pc-10,
+    .start div div div div .col-hd-10,
+    .start div div div div .col-mob-11,
+    .start div div div div .col-ipad-11,
+    .start div div div div .col-pc-11,
+    .start div div div div .col-hd-11,
+    .start div div div div .col-mob-12,
+    .start div div div div .col-ipad-12,
+    .start div div div div .col-pc-12,
+    .start div div div div .col-hd-12 {
+      padding-left: 90px !important; } }
+  @media only screen and (max-width: 768px) and (min-width: 541px) {
+    .start div div div div .col-mob-1,
+    .start div div div div .col-ipad-1,
+    .start div div div div .col-pc-1,
+    .start div div div div .col-hd-1,
+    .start div div div div .col-mob-2,
+    .start div div div div .col-ipad-2,
+    .start div div div div .col-pc-2,
+    .start div div div div .col-hd-2,
+    .start div div div div .col-mob-3,
+    .start div div div div .col-ipad-3,
+    .start div div div div .col-pc-3,
+    .start div div div div .col-hd-3,
+    .start div div div div .col-mob-4,
+    .start div div div div .col-ipad-4,
+    .start div div div div .col-pc-4,
+    .start div div div div .col-hd-4,
+    .start div div div div .col-mob-5,
+    .start div div div div .col-ipad-5,
+    .start div div div div .col-pc-5,
+    .start div div div div .col-hd-5,
+    .start div div div div .col-mob-6,
+    .start div div div div .col-ipad-6,
+    .start div div div div .col-pc-6,
+    .start div div div div .col-hd-6,
+    .start div div div div .col-mob-7,
+    .start div div div div .col-ipad-7,
+    .start div div div div .col-pc-7,
+    .start div div div div .col-hd-7,
+    .start div div div div .col-mob-8,
+    .start div div div div .col-ipad-8,
+    .start div div div div .col-pc-8,
+    .start div div div div .col-hd-8,
+    .start div div div div .col-mob-9,
+    .start div div div div .col-ipad-9,
+    .start div div div div .col-pc-9,
+    .start div div div div .col-hd-9,
+    .start div div div div .col-mob-10,
+    .start div div div div .col-ipad-10,
+    .start div div div div .col-pc-10,
+    .start div div div div .col-hd-10,
+    .start div div div div .col-mob-11,
+    .start div div div div .col-ipad-11,
+    .start div div div div .col-pc-11,
+    .start div div div div .col-hd-11,
+    .start div div div div .col-mob-12,
+    .start div div div div .col-ipad-12,
+    .start div div div div .col-pc-12,
+    .start div div div div .col-hd-12 {
+      padding-left: 90px !important; } }
+  @media only screen and (max-width: 540px) and (min-width: 200px) {
+    .start div div div div .col-mob-1,
+    .start div div div div .col-ipad-1,
+    .start div div div div .col-pc-1,
+    .start div div div div .col-hd-1,
+    .start div div div div .col-mob-2,
+    .start div div div div .col-ipad-2,
+    .start div div div div .col-pc-2,
+    .start div div div div .col-hd-2,
+    .start div div div div .col-mob-3,
+    .start div div div div .col-ipad-3,
+    .start div div div div .col-pc-3,
+    .start div div div div .col-hd-3,
+    .start div div div div .col-mob-4,
+    .start div div div div .col-ipad-4,
+    .start div div div div .col-pc-4,
+    .start div div div div .col-hd-4,
+    .start div div div div .col-mob-5,
+    .start div div div div .col-ipad-5,
+    .start div div div div .col-pc-5,
+    .start div div div div .col-hd-5,
+    .start div div div div .col-mob-6,
+    .start div div div div .col-ipad-6,
+    .start div div div div .col-pc-6,
+    .start div div div div .col-hd-6,
+    .start div div div div .col-mob-7,
+    .start div div div div .col-ipad-7,
+    .start div div div div .col-pc-7,
+    .start div div div div .col-hd-7,
+    .start div div div div .col-mob-8,
+    .start div div div div .col-ipad-8,
+    .start div div div div .col-pc-8,
+    .start div div div div .col-hd-8,
+    .start div div div div .col-mob-9,
+    .start div div div div .col-ipad-9,
+    .start div div div div .col-pc-9,
+    .start div div div div .col-hd-9,
+    .start div div div div .col-mob-10,
+    .start div div div div .col-ipad-10,
+    .start div div div div .col-pc-10,
+    .start div div div div .col-hd-10,
+    .start div div div div .col-mob-11,
+    .start div div div div .col-ipad-11,
+    .start div div div div .col-pc-11,
+    .start div div div div .col-hd-11,
+    .start div div div div .col-mob-12,
+    .start div div div div .col-ipad-12,
+    .start div div div div .col-pc-12,
+    .start div div div div .col-hd-12 {
+      padding-left: 70px !important; } }
 
 .start div div div div div .wid {
   height: 100vh; }
@@ -1737,139 +1887,6 @@ header #navigation .logo img {
       opacity: 0; }
 
 /*CSS STYLE END Web~Fobiya*/
-footer {
-  width: 100%;
-  height: 246px;
-  background: url(../images/ftr.png) no-repeat top center; }
-  @media only screen and (max-width: 1199px) and (min-width: 993px) {
-    footer {
-      height: 235px; } }
-  @media only screen and (max-width: 992px) and (min-width: 769px) {
-    footer {
-      background-size: cover;
-      height: 246px;
-      padding: 50px 0;
-      text-align: center;
-      background-size: cover;
-      height: auto; } }
-  @media only screen and (max-width: 768px) and (min-width: 200px) {
-    footer {
-      padding: 30px 0;
-      font-size: 1em;
-      text-align: center;
-      background-size: cover;
-      height: auto; } }
-  footer .name {
-    color: #ffffff;
-    margin-top: 110px;
-    letter-spacing: .017em; }
-    @media only screen and (max-width: 1199px) and (min-width: 993px) {
-      footer .name {
-        font-size: 1em; } }
-    @media only screen and (max-width: 992px) and (min-width: 769px) {
-      footer .name {
-        margin: 30px auto;
-        font-size: 1em;
-        padding-left: 0px;
-        text-align: center; } }
-    @media only screen and (max-width: 768px) and (min-width: 200px) {
-      footer .name {
-        margin: 15px auto;
-        font-size: 1em;
-        padding-left: 0px;
-        text-align: center; } }
-  footer .sogl_r_3 {
-    color: #fffefe;
-    line-height: 1.667;
-    margin-top: 89px;
-    text-align: center; }
-    footer .sogl_r_3:hover {
-      color: #ffa300; }
-    @media only screen and (max-width: 1199px) and (min-width: 993px) {
-      footer .sogl_r_3 {
-        font-size: 1em;
-        text-align: center; } }
-    @media only screen and (max-width: 992px) and (min-width: 769px) {
-      footer .sogl_r_3 {
-        margin: 30px auto;
-        text-align: center;
-        font-size: 1em;
-        padding-left: 0px; } }
-    @media only screen and (max-width: 768px) and (min-width: 200px) {
-      footer .sogl_r_3 {
-        margin: 15px auto;
-        font-size: 1em;
-        padding-left: 0px;
-        text-align: center; } }
-  footer .info {
-    color: #fffefe;
-    line-height: 1.667; }
-    @media only screen and (max-width: 1199px) and (min-width: 993px) {
-      footer .info {
-        font-size: .9em;
-        text-align: center; } }
-    @media only screen and (max-width: 992px) and (min-width: 769px) {
-      footer .info {
-        margin: 30px auto;
-        font-size: 1em;
-        padding-left: 0px;
-        text-align: center; } }
-    @media only screen and (max-width: 768px) and (min-width: 200px) {
-      footer .info {
-        margin: 15px auto;
-        font-size: 1em;
-        padding-left: 0px;
-        text-align: center; } }
-  footer .box__info {
-    text-align: right; }
-    footer .box__info p {
-      color: #ffffff;
-      line-height: 1.667;
-      margin-top: 90px; }
-      @media only screen and (max-width: 1199px) and (min-width: 993px) {
-        footer .box__info p {
-          font-size: 1em; } }
-      @media only screen and (max-width: 992px) and (min-width: 769px) {
-        footer .box__info p {
-          margin: 30px auto;
-          font-size: 1em;
-          padding-left: 0px;
-          text-align: center; } }
-      @media only screen and (max-width: 768px) and (min-width: 200px) {
-        footer .box__info p {
-          margin: 15px auto;
-          font-size: 1em;
-          padding-left: 0px;
-          text-align: center; } }
-    footer .box__info .name {
-      margin-top: 0px;
-      text-decoration: underline; }
-      @media only screen and (max-width: 1199px) and (min-width: 993px) {
-        footer .box__info .name {
-          font-size: 1em; } }
-      @media only screen and (max-width: 992px) and (min-width: 769px) {
-        footer .box__info .name {
-          margin: 30px auto;
-          font-size: 1em;
-          padding-left: 0px;
-          text-align: center; } }
-      @media only screen and (max-width: 768px) and (min-width: 200px) {
-        footer .box__info .name {
-          margin: 15px auto;
-          font-size: 1em;
-          padding-left: 0px;
-          text-align: center; } }
-    footer .box__info ul {
-      margin-top: 47px; }
-      footer .box__info ul li {
-        display: inline-block;
-        margin-right: 20px; }
-        footer .box__info ul li a {
-          color: #ffffff;
-          font: 0.88em; }
-          footer .box__info ul li a:hover {
-            color: #c0c0c0; }
-
 /*---------------------------------------------------------
 ---------------------- FOOTTER  Web~Fobiya -------------------
 ----------------------------------------------------------*/
@@ -1897,11 +1914,41 @@ footer {
   padding-top: 120px;
   line-height: .95em;
   margin-bottom: 60px; }
+  @media only screen and (max-width: 992px) and (min-width: 769px) {
+    #thx h2 {
+      font: 70px "Knockout-HTF49-Liteweight";
+      margin-left: -90px !important;
+      padding-top: 90px;
+      margin-bottom: 40px; } }
+  @media only screen and (max-width: 768px) and (min-width: 541px) {
+    #thx h2 {
+      font: 55px "Knockout-HTF49-Liteweight";
+      margin-left: -90px !important;
+      padding-top: 60px;
+      margin-bottom: 40px; } }
+  @media only screen and (max-width: 540px) and (min-width: 200px) {
+    #thx h2 {
+      padding-top: 50px;
+      font: 55px "Knockout-HTF49-Liteweight";
+      margin-left: -70px !important;
+      margin-bottom: 40px; } }
 
 #thx .bottom__black {
   text-align: left;
   padding-top: 173px;
   padding-bottom: 196px; }
+  @media only screen and (max-width: 992px) and (min-width: 769px) {
+    #thx .bottom__black {
+      padding-top: 30px;
+      padding-bottom: 90px; } }
+  @media only screen and (max-width: 768px) and (min-width: 541px) {
+    #thx .bottom__black {
+      padding-top: 30px;
+      padding-bottom: 90px; } }
+  @media only screen and (max-width: 540px) and (min-width: 200px) {
+    #thx .bottom__black {
+      padding-top: 30px;
+      padding-bottom: 90px; } }
 
 #thx ul {
   text-align: left; }
@@ -1928,6 +1975,18 @@ footer {
 #thx .p_box_2,
 #thx .p_box_3 {
   padding-top: 370px; }
+  @media only screen and (max-width: 992px) and (min-width: 769px) {
+    #thx .p_box_2,
+    #thx .p_box_3 {
+      padding-top: 40px; } }
+  @media only screen and (max-width: 768px) and (min-width: 541px) {
+    #thx .p_box_2,
+    #thx .p_box_3 {
+      padding-top: 40px; } }
+  @media only screen and (max-width: 540px) and (min-width: 200px) {
+    #thx .p_box_2,
+    #thx .p_box_3 {
+      padding-top: 40px; } }
 
 .thx {
   z-index: 11111;
