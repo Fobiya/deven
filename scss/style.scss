@@ -1001,7 +1001,6 @@ header {
                 }
             }
             .liniar {
-                width: 1212px;
                 height: 370px;
                 z-index: 4;
                 display: block;
@@ -1197,9 +1196,11 @@ header {
                 opacity: 1;
                 @media only screen and (max-width: 1599px) and (min-width: 1200px) {
                     right: -400px;
+                    top: 40px;
                 }
                 @media only screen and (max-width: 1199px) and (min-width: 993px) {
                     right: -400px;
+                    top: -20px;
                 }
                 @media only screen and (max-width: 768px) and (min-width: 541px) {
                     display: none!important;
@@ -1727,6 +1728,7 @@ header {
             }
             @media only screen and (max-width: 1199px) and (min-width: 993px) {
                 width: 430px !important;
+                margin-left: 0px !important;
             }
             @media only screen and (max-width: 992px) and (min-width: 769px) {
                 display: none !important;
