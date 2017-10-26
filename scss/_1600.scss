@@ -1,0 +1,269 @@
+                @import "bourbon";
+                @media only screen and (max-width: 1599px) and (min-width: 1200px) {
+                    /*CSS  Web~Oman*/
+                    h2 {
+                        position: relative;
+                        font-size: 2.1em;
+                    }
+                    [class*="blok__"] {
+                        padding-bottom: 100px;
+                        min-height: auto !important;
+                    }
+                    /*CSS END Web~Oman*/
+                    /* --------------------footer ---------------*/
+                    /* -------------------- END footer ---------------*/
+                    /* -------------------- MODAL ---------------*/
+                    .forma__popup {
+                        h2 {
+                            text-align: center;
+                        }
+                        .box__img {
+                            img {
+                                margin-left: -140px;
+                                margin-top: -40px;
+                            }
+                        }
+                    }
+                    .blok__n01 {
+                        margin-bottom: 100px;
+                        br {
+                            display: none;
+                        }
+                        .box__forma {
+                            padding: 95px 50px;
+                            h2 {
+                                font-size: 1.9em;
+                            }
+                        }
+                    }
+                    .blok__n02 {
+                        margin-bottom: 200px;
+                        br {
+                            display: none;
+                        }
+                    }
+                    .blok__n03 {
+                        br {
+                            display: none;
+                        }
+                        .box__content {
+                            margin-left: 0px;
+                        }
+                        .box__content h2 {
+                            margin-top: 470px;
+                        }
+                        .box_animaton {
+                             :nth-child(1) {
+                                left: -200px;
+                            }
+                            .bac {
+                                left: -260px;
+                            }
+                            >* {
+                                position: absolute;
+                            }
+                        }
+                    }
+                    .blok__n05 {
+                        br {
+                            display: none;
+                        }
+                        .box_animaton {
+                             :nth-child(1) {
+                                left: -50px;
+                            }
+                            .border {
+                                left: -100px;
+                            }
+                             :nth-child(3) {
+                                left: -110px;
+                            }
+                             :nth-child(4) {
+                                left: -140px;
+                            }
+                            .bac {
+                                left: -100px;
+                            }
+                        }
+                    }
+                    .blok__n06 {
+                        br {
+                            display: none;
+                        }
+                        .box_animaton {
+                             :nth-child(1) {
+                                left: 255px;
+                            }
+                             :nth-child(2) {
+                                left: 185px;
+                            }
+                             :nth-child(3) {
+                                left: 160px;
+                            }
+                             :nth-child(4) {
+                                left: 100px;
+                            }
+                             :nth-child(5) {
+                                left: -130px;
+                            }
+                             :nth-child(6) {
+                                left: 230px;
+                            }
+                            >* {
+                                position: absolute;
+                            }
+                        }
+                    }
+                    .blok__01 {
+                        .box__forma {
+                            padding: 88px 50px 110px 50px;
+                            .title {
+                                br {
+                                    display: none;
+                                }
+                            }
+                        }
+                    }
+                    .blok__03 {
+                        height: 800px;
+                        .box__img {
+                            max-width: 263px;
+                            height: 303px;
+                            &:hover [class*="gif"] {
+                                max-width: 263px;
+                                height: 303px;
+                            }
+                            &:before {
+                                content: '';
+                                max-width: 324px;
+                                width: 100%;
+                                height: 256px;
+                            }
+                            img {
+                                max-width: 324px;
+                                height: auto;
+                                width: 100%;
+                            }
+                        }
+                    }
+                    .blok__04 {
+                        margin-top: -200px;
+                        .box__forma {
+                            margin-left: 0px;
+                        }
+                    }
+                    .blok__05 {
+                        h2 {
+                            margin-top: 140px;
+                        }
+                    }
+                    .blok__06 {
+                        height: 850px;
+                        .box_animaton {
+                            &:nth-child(1) {
+                                left: -160px;
+                            }
+                        }
+                        .box__img {
+                            img {
+                                margin-left: -200px;
+                            }
+                        }
+                    }
+                    .blok__07__1 {
+                        height: 1100px;
+                    }
+                    .blok__07__2 {
+                        .box_animaton {
+                             :nth-child(1) {
+                                left: -190px !important;
+                            }
+                        }
+                    }
+                    .blok__08 {
+                        .box_2 {
+                            margin-left: 0px;
+                        }
+                        .vip {
+                            margin-left: 0px;
+                        }
+                    }
+                    .blok__09 {
+                        background: rgb(255, 255, 255);
+                    }
+                    .blok__10 {
+                        .box_animaton {
+                            span {
+                                left: 60px!important;
+                            }
+                             :nth-child(2) {
+                                left: 173px!important;
+                            }
+                             :nth-child(3) {
+                                left: 20px!important;
+                            }
+                             :nth-child(4) {
+                                left: -250px!important;
+                            }
+                            .bac {
+                                left: -100px!important;
+                            }
+                            >* {
+                                position: absolute;
+                            }
+                        }
+                    }
+                    .blok__11 {
+                        .box_animaton {
+                            .bac {
+                                top: -210px;
+                            }
+                        }
+                        .box__slider {
+                            .slick-list {
+                                height: 300px;
+                            }
+                        }
+                    }
+                    .blok__12 {
+                        .box__content {
+                            margin-top: 200px;
+                            ol {
+                                margin-left: 0px;
+                                margin-top: 75px;
+                                li {
+                                    p {
+                                        font-size: .9em;
+                                    }
+                                }
+                            }
+                        }
+                        .box_animaton .img__bottom {
+                            top: -682px;
+                            left: 580px;
+                        }
+                        .box_animaton :nth-child(1) {
+                            top: -500px;
+                            left: -352px;
+                        }
+                    }
+                    .blok__13 {
+                        .box_animaton {
+                             :nth-child(1) {
+                                left: -201px;
+                            }
+                             :nth-child(2) {
+                                left: -150px;
+                            }
+                            .img__bottom {
+                                left: 800px;
+                            }
+                        }
+                        .box__forma {
+                            margin-left: 0px;
+                            padding: 88px 55px 110px 55px;
+                        }
+                    }
+                    /* -------------------- END MODAL ---------------*/
+                }
+                /* END 992px  */

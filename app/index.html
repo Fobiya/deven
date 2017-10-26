@@ -1,0 +1,571 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta name="theme-color" content="#ffffff">
+    <meta property="og:image" content="http://fergie.com/images/og.png">
+    <meta property="og:title" content="#" />
+    <meta property="og:url" content="" />
+    <meta property="og:site_name" content="#" />
+    <meta name="keywords" content="#" />
+    <meta name="description" content="#" />
+    <meta name="author" content="Zen Studio/Fobiya" />
+    <link rel="android-chrome" sizes="96x96" href="./images/android-chrome-96x96.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="./images/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./images/favicon-16x16.png">
+    <link rel="icon" href="./images/favicon-32x32.png" type="image/x-icon" />
+    <link rel="shortcut icon" href="./images/favicon-32x32.png" type="image/x-icon" />
+    <link rel="shortcut icon" href="./images/favicon.ico" />
+    <title>#</title>
+
+    <!-- RESET -->
+    <style>
+        html,
+        body,
+        div,
+        span,
+        applet,
+        object,
+        iframe,
+        h1,
+        h2,
+        h3,
+        h4,
+        h5,
+        h6,
+        p,
+        blockquote,
+        pre,
+        a,
+        abbr,
+        acronym,
+        address,
+        big,
+        cite,
+        code,
+        del,
+        dfn,
+        em,
+        img,
+        ins,
+        kbd,
+        q,
+        s,
+        samp,
+        small,
+        strike,
+        strong,
+        sub,
+        sup,
+        tt,
+        var,
+        b,
+        u,
+        i,
+        center,
+        dl,
+        dt,
+        dd,
+        ol,
+        ul,
+        li,
+        fieldset,
+        form,
+        label,
+        legend,
+        table,
+        caption,
+        tbody,
+        tfoot,
+        thead,
+        tr,
+        th,
+        td,
+        article,
+        aside,
+        canvas,
+        details,
+        embed,
+        figure,
+        figcaption,
+        footer,
+        header,
+        hgroup,
+        menu,
+        nav,
+        output,
+        ruby,
+        section,
+        summary,
+        time,
+        mark,
+        audio,
+        video {
+            margin: 0;
+            padding: 0;
+            border: 0;
+            font-size: 100%;
+            font: inherit;
+            vertical-align: baseline
+        }
+        
+        article,
+        aside,
+        details,
+        figcaption,
+        figure,
+        footer,
+        header,
+        hgroup,
+        menu,
+        nav,
+        section {
+            display: block
+        }
+        
+        ol,
+        ul {
+            list-style: none
+        }
+        
+        blockquote,
+        q {
+            quotes: none
+        }
+        
+        blockquote:before,
+        blockquote:after,
+        q:before,
+        q:after {
+            content: '';
+            content: none
+        }
+        
+        table {
+            border-collapse: collapse;
+            border-spacing: 0
+        }
+    </style>
+
+    <script>
+        ! function(e) {
+            "use strict";
+
+            function t(e, t, n) {
+                e.addEventListener ? e.addEventListener(t, n, !1) : e.attachEvent && e.attachEvent("on" + t, n)
+            }
+
+            function n(t, n) {
+                return e.localStorage && localStorage[t + "_content"] && localStorage[t + "_file"] === n
+            }
+
+            function a(t, a) {
+                if (e.localStorage && e.XMLHttpRequest) n(t, a) ? o(localStorage[t + "_content"]) : l(t, a);
+                else {
+                    var s = r.createElement("link");
+                    s.href = a, s.id = t, s.rel = "stylesheet", s.type = "text/css", r.getElementsByTagName("head")[0].appendChild(s), r.cookie = t
+                }
+            }
+
+            function l(e, t) {
+                var n = new XMLHttpRequest;
+                n.open("GET", t, !0), n.onreadystatechange = function() {
+                    4 === n.readyState && 200 === n.status && (o(n.responseText), localStorage[e + "_content"] = n.responseText, localStorage[e + "_file"] = t)
+                }, n.send()
+            }
+
+            function o(e) {
+                var t = r.createElement("style");
+                t.setAttribute("type", "text/css"), r.getElementsByTagName("head")[0].appendChild(t), t.styleSheet ? t.styleSheet.cssText = e : t.innerHTML = e
+            }
+            var r = e.document;
+            e.loadCSS = function(e, t, n) {
+                var a, l = r.createElement("link");
+                if (t) a = t;
+                else {
+                    var o;
+                    o = r.querySelectorAll ? r.querySelectorAll("style,link[rel=stylesheet],script") : (r.body || r.getElementsByTagName("head")[0]).childNodes, a = o[o.length - 1]
+                }
+                var s = r.styleSheets;
+                l.rel = "stylesheet", l.href = e, l.media = "only x", a.parentNode.insertBefore(l, t ? a : a.nextSibling);
+                var c = function(e) {
+                    for (var t = l.href, n = s.length; n--;)
+                        if (s[n].href === t) return e();
+                    setTimeout(function() {
+                        c(e)
+                    })
+                };
+                return l.onloadcssdefined = c, c(function() {
+                    l.media = n || "all"
+                }), l
+            }, e.loadLocalStorageCSS = function(l, o) {
+                n(l, o) || r.cookie.indexOf(l) > -1 ? a(l, o) : t(e, "load", function() {
+                    a(l, o)
+                })
+            }
+        }(this);
+    </script>
+
+    <!-- Load CSS Start -->
+    <script>
+        loadCSS("css/BS.css?ver=1.0.0", false, "all");
+    </script>
+
+    <script>
+        loadCSS("css/magnific-popup.1.0.0.min.css?ver=1.0.0", false, "all");
+    </script>
+
+
+    <script>
+        loadCSS("css/style.css?ver=1.0.0", false, "all");
+    </script>
+
+    <script>
+        loadCSS("css/fonts.css?ver=1.0.0", false, "all");
+    </script>
+
+
+    <script>
+        loadCSS("css/effect.modal.css?ver=1.0.0", false, "all");
+    </script>
+
+    <!-- Load CSS End -->
+
+    <!-- Load CSS Compiled without JS -->
+    <noscript>
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/magnific-popup.1.0.0.min.css">
+        <link rel="stylesheet" href="css/slick.min.css">
+        <link rel="stylesheet" href="css/jquery.fancybox.min.css?ver=1.0.0">
+        <link rel="stylesheet" href="css/effect.modal.css?ver=1.0.0">
+    </noscript>
+
+</head>
+
+<body>
+
+    <div class="blok__01">
+        <div class="container_area">
+            <div class="row">
+                <div class="col-mini-12 col-mob-12 col-ipad-4 col-pc-4 col-bpc-4 col-hdf-4 col-hd-4 pull-right lin_o rlin">
+
+                    <div class="box__ wid">
+                        <div class="af">
+
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-mini-12 col-mob-12 col-ipad-4 col-pc-4 col-bpc-4 col-hdf-4 col-hd-4 lin_w">
+
+                    <div class="box__ box1">
+
+                        <div class="inform">
+
+                            <p>tour</p>
+
+                            <h1><span class="_1">DEMI LOVATO</span> <br><span class="_2">& DJ KHALED</span></h1>
+
+                            <a href="#thx" class="bottom__black popup-link">see more</a>
+
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <div class="col-mini-12 col-mob-12 col-ipad-4 col-pc-4 col-bpc-4 col-hdf-4 col-hd-4 lin_t">
+
+                    <div class="box__ box2">
+
+
+                        <img src="images/eleps.png" alt="eleps" class="eleps">
+
+                        <div class="liniar">
+
+                            <div class="box_clock">
+
+                                <!-- <script src="http://megatimer.ru/s/994e83dfd691ffaaa0cbd9d23d1632bc.js"></script>-->
+
+                                <script>
+                                    (function() {
+                                        var _id = "994e83dfd691ffaaa0cbd9d23d1632bc";
+                                        while (document.getElementById("timer" + _id)) _id = _id + "0";
+                                        document.write("<div id='timer" + _id + "' ></div>");
+                                        var _t = document.createElement("script");
+                                        _t.src = "http://megatimer.ru/timer/timer.min.js";
+                                        var _f = function(_k) {
+                                            var l = new MegaTimer(_id, {
+                                                "view": [1, 1, 1, 0],
+                                                "type": {
+                                                    "currentType": "1",
+                                                    "params": {
+                                                        "usertime": true,
+                                                        "tz": "3",
+                                                        "utc": 1509321600000
+                                                    }
+                                                },
+                                                "design": {
+                                                    "type": "text",
+                                                    "params": {
+
+                                                        "number-font-size": "35",
+
+                                                        "separator-margin": "15",
+                                                        "separator-on": true,
+                                                        "separator-text": ":",
+                                                        "text-on": false,
+
+                                                        "text-font-size": "12",
+
+                                                    }
+                                                },
+                                                "designId": 1,
+                                                "theme": "white"
+                                            });
+                                            if (_k != null) l.run();
+                                        };
+                                        _t.onload = _f;
+                                        _t.onreadystatechange = function() {
+                                            if (_t.readyState == "loaded") _f(1);
+                                        };
+                                        var _h = document.head || document.getElementsByTagName("head")[0];
+                                        _h.appendChild(_t);
+                                    }).call(this);
+                                </script>
+
+
+                            </div>
+                        </div>
+
+
+
+                        <img src="images/grin.png" alt="grin" class="grin">
+
+                        <img src="images/dj.png" alt="dj" class="dj">
+
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+
+
+        <img src="images/_tour.png" alt="_tour" class="tour">
+
+
+    </div>
+
+
+    <div id="thx" class=" thx mfp-hide">
+        <div class="p_box">
+
+
+
+
+
+            <div class="blok__01">
+                <div class="container_area">
+                    <div class="row">
+
+                        <div class="col-mini-12 col-mob-12 col-ipad-3 col-pc-3 col-bpc-3 col-hdf-3 col-hd-3 lin_w">
+
+                            <div class="box__ p_box_1">
+
+                                <h2>upcoming <br>shows</h2>
+
+                                <ul>
+                                    <li>
+                                        <span class="num">01</span>
+                                        <h3>February 26 - San Diego</h3>
+                                        <p>buy tickets</p>
+                                    </li>
+                                    <li>
+                                        <span class="num">02</span>
+                                        <h3>february 28 - San Jose</h3>
+                                        <p>buy tickets</p>
+                                    </li>
+                                    <li>
+                                        <span class="num">03</span>
+                                        <h3>March 2nd -Inglewood</h3>
+                                        <p>buy tickets</p>
+                                    </li>
+                                    <li>
+                                        <span class="num">04</span>
+                                        <h3>March 3rd - Las Vegas</h3>
+                                        <p>buy tickets</p>
+                                    </li>
+                                    <li>
+                                        <span class="num">05</span>
+                                        <h3>March 4th - Phoenix</h3>
+                                        <p>buy tickets</p>
+                                    </li>
+                                </ul>
+
+
+                            </div>
+
+                        </div>
+
+                        <div class="col-mini-12 col-mob-12 col-ipad-3 col-pc-3 col-bpc-3 col-hdf-3 col-hd-3 lin_t">
+
+                            <div class="box__ p_box_2">
+
+                                <ul>
+                                    <li>
+                                        <span class="num">06</span>
+                                        <h3>March 7th - Dallas</h3>
+                                        <p>buy tickets</p>
+                                    </li>
+                                    <li>
+                                        <span class="num">07</span>
+                                        <h3>March 9th - Rosemont</h3>
+                                        <p>buy tickets</p>
+                                    </li>
+                                    <li>
+                                        <span class="num">08</span>
+                                        <h3>March 10th - Minneapolis</h3>
+                                        <p>buy tickets</p>
+                                    </li>
+                                    <li>
+                                        <span class="num">09</span>
+                                        <h3>March 13th - Detroit</h3>
+                                        <p>buy tickets</p>
+                                    </li>
+                                    <li>
+                                        <span class="num">10</span>
+                                        <h3>March 14th - Columbus</h3>
+                                        <p>buy tickets</p>
+                                    </li>
+                                </ul>
+
+
+
+                            </div>
+
+                        </div>
+
+                        <div class="col-mini-12 col-mob-12 col-ipad-3 col-pc-3 col-bpc-3 col-hdf-3 col-hd-3 lin_t">
+
+                            <div class="box__ p_box_3">
+
+
+                                <ul>
+                                    <li>
+                                        <span class="num">11</span>
+                                        <h3>March 16th - Brooklyn</h3>
+                                        <p>buy tickets</p>
+                                    </li>
+                                    <li>
+                                        <span class="num">12</span>
+                                        <h3>March 17th - Montreal</h3>
+                                        <p>buy tickets</p>
+                                    </li>
+                                    <li>
+                                        <span class="num">13</span>
+                                        <h3>March 17th - Montreal</h3>
+                                        <p>buy tickets</p>
+                                    </li>
+                                    <li>
+                                        <span class="num">14</span>
+                                        <h3>March 21st - Newark</h3>
+                                        <p>buy tickets</p>
+                                    </li>
+                                    <li>
+                                        <span class="num">15</span>
+                                        <h3>March 23rd - Philadelphia</h3>
+                                        <p>buy tickets</p>
+                                    </li>
+                                </ul>
+
+
+
+
+
+
+                            </div>
+
+                        </div>
+
+                        <div class="col-mini-12 col-mob-12 col-ipad-3 col-pc-3 col-bpc-3 col-hdf-3 col-hd-3 lin_o">
+
+                            <div class="box__ p_box_4">
+
+                                <a class="mfp-close bottom__black">back to main</a>
+
+
+
+
+                                <ul>
+                                    <li>
+                                        <span class="num">16</span>
+                                        <h3>buy tickets</h3>
+                                        <p>buy tickets</p>
+                                    </li>
+                                    <li>
+                                        <span class="num">17</span>
+                                        <h3>March 26th - Boston</h3>
+                                        <p>buy tickets</p>
+                                    </li>
+                                    <li>
+                                        <span class="num">18</span>
+                                        <h3>March 28th - Nashville</h3>
+                                        <p>buy tickets</p>
+                                    </li>
+                                    <li>
+                                        <span class="num">19</span>
+                                        <h3>March 30th - Miami</h3>
+                                        <p>buy tickets</p>
+                                    </li>
+                                    <li>
+                                        <span class="num">20</span>
+                                        <h3>March 31st - Tampa</h3>
+                                        <p>buy tickets</p>
+                                    </li>
+                                </ul>
+
+
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+
+
+
+
+            </div>
+
+
+        </div>
+    </div>
+
+
+    <!-- All modals end -->
+    <!--[if lt IE 9]><script src="libs/html5shiv/es5-shim.min.js"></script><script src="libs/html5shiv/html5shiv.min.js"></script><script src="libs/html5shiv/html5shiv-printshiv.min.js"></script><script src="libs/respond/respond.min.js"></script><![endif]-->
+    <script>
+        ! function(e, t, r) {
+            function n() {
+                for (; d[0] && "loaded" == d[0][f];) c = d.shift(), c[o] = !i.parentNode.insertBefore(c, i)
+            }
+
+            for (var s, a, c, d = [], i = e.scripts[0], o = "onreadystatechange", f = "readyState"; s = r.shift();) a = e.createElement(t), "async" in i ? (a.async = !1, e.head.appendChild(a)) : i[f] ? (d.push(a), a[o] = n) : e.write("<" + t + ' src="' + s + '" defer></' + t + ">"), a.src = s
+        }(document, "script", [
+
+            'js/libs.js',
+            'js/jquery.magnific-popup.1.0.0.min.js',
+            'js/common.js',
+        ])
+    </script>
+    <!-- Load Scripts End -->
+</body>
+
+</html>
