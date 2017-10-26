@@ -1397,17 +1397,17 @@ header #navigation .logo img {
       z-index: 3; }
       @media only screen and (max-height: 3000px) and (min-height: 951px) {
         .blok__01 .box__ .eleps {
-          width: 824px;
+          width: 824px !important;
           -webkit-transition: all 1.5s ease !important;
           transition: all 1.5s ease !important; } }
       @media only screen and (max-height: 950px) and (min-height: 900px) {
         .blok__01 .box__ .eleps {
-          width: 140%;
+          width: 140% !important;
           -webkit-transition: all 1.5s ease !important;
           transition: all 1.5s ease !important; } }
       @media only screen and (max-height: 899px) {
         .blok__01 .box__ .eleps {
-          width: 120%;
+          width: 120% !important;
           -webkit-transition: all 1.5s ease !important;
           transition: all 1.5s ease !important; } }
       @media only screen and (max-width: 992px) and (min-width: 769px) {
